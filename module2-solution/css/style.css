@@ -15,8 +15,6 @@ section {
     margin-bottom: 5vh;
     margin-left: 5%;
     float: left;
-    padding-left: 5%;
-    padding-right: 5%;
     padding-top: 4vh;
     position: relative;
 }
@@ -57,7 +55,9 @@ p {
 
     section {
         width: 90%;
-        height: 28vh;
+        height: 26vh;
+        padding-left: 5%;
+        padding-right: 5%;
     }
 
 }
@@ -65,8 +65,10 @@ p {
 @media screen and (min-width: 768px) and (max-width: 991px) {
     
     section {
-        height: 30vh;
+        height: 29vh;
         float: left;
+        padding-left: 2%;
+        padding-right: 2%;
     }
 
     #desserts-heading {
@@ -81,11 +83,7 @@ p {
     .tablet-bottom-section {
         width: 90%;
     }
-
-    .tablet-bottom-section p {
-        margin-left: 2%;
-        margin-right: 2%;
-    }
+    
 }
 
 @media screen and (min-width: 992px) {
@@ -93,7 +91,10 @@ p {
     section {
         margin-left: 2.5%;
         width: 30%;
-        height: 35vh;
+        height: 28vh;
+        padding-left: 1.5%;
+        padding-right: 1.5%;
+        padding-top: 2%;
     }
 }
 
